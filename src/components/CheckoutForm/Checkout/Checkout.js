@@ -10,10 +10,20 @@ import {
   Button,
 } from "@material-ui/core";
 
+import useStyles from "./styles";
+
 const Checkout = () => {
+  const classes = useStyles();
   return (
     <>
-      <div className={CallMissedSharp.toolbar}></div>
+      <div className={classes.toolbar} />
+      <main className={classes.layout}>
+        <Paper className={classes.paper}>
+          <Typography variant="h4" align="center">
+            Chekout
+          </Typography>
+        </Paper>
+      </main>
     </>
   );
 };

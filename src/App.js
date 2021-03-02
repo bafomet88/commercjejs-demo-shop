@@ -1,7 +1,7 @@
 import React from "react";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
-import { Products, Navbar, Cart, Chekout } from "./components";
+import { Products, Navbar, Cart, Checkout } from "./components";
 import ProductsContextProvider from "./components/contex/commerce-contex";
 
 function App() {
